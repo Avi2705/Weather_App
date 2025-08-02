@@ -34,22 +34,22 @@ const Weatherdetails = ({ icon, temp, city, country, lat, lon,wind,humidity }) =
             <div className='flex justify-between mt-8  '>
                 <div className='text-center w-12 '>
 
-                    <img className='h-[60px] w-[60px]' src={rainIcon} alt="Icon" />
+                    <img className='h-[60px] w-[60px]' src={snowIcon} alt="Icon" />
                     <div className='text-md  font-bold pt-3'>
                         <div>
-                            {humidity}
+                            {wind}
                         </div>
                         <div>
-                            humidity
+                        wind
                         </div>
                     </div>
                 </div>
                 <div className='text-center w-12 '>
 
-                    <img className='h-[60px] w-[60px]' src={rainIcon} alt="Icon" />
+                    <img className='h-[60px] w-[60px]' src={snowIcon} alt="Icon" />
                     <div className='text-md  font-bold pt-3'>
                         <div>
-                            {wind}
+                            {humidity}%
                         </div>
                         <div>
                             humidity
